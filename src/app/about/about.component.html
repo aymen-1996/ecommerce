@@ -1,0 +1,28 @@
+<h2>about works!</h2>
+<h4>User details</h4>
+
+<ul>
+  <li>{{ user.name }} <{{ user.email }}>
+  </li>
+  <li>{{ user.name+ ' <' +user.email+ '>' }}</li>
+  <li>{{ user.name.toUpperCase() }} <{{ user.email }}>
+  </li>
+  <li>{{ reverseName() }} <{{ user.email }}>
+  </li>
+</ul>
+<hr>
+<h3>Change user name</h3>
+<button (click)="changeUserName()">Change</button>
+<hr>
+<h3>New user name</h3>
+<label>User name: </label>
+<input type="text" [(ngModel)]="user.name">
+<hr>
+<h3>Pipes</h3>
+<ul>
+  <li>{{ today }}</li>
+  <li>{{ today|date:'longDate' }}</li>
+  <li>{{ today|date:'shortDate' }}</li>
+  <li>{{ today|date:'shortTime' }}</li>
+  <li>{{ today|date:'fullDate' }}</li>
+</ul>
