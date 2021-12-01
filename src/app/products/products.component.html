@@ -1,1 +1,39 @@
-<h1>hello</h1>
+<main>
+  
+<table class="table">
+     
+<tr>
+    <th scope="col" style="width:300px" >Name </th>
+     
+   
+      <th scope="col"style="position:;">prix </th>
+   
+      
+      <th scope="col" style="width:650px">Quantité</th>
+      <th scope="col" style="width:230px">  </th>
+     
+
+
+    
+ 
+    </tr>
+ 
+</table>
+        <div class="col" *ngFor="let product of productList">
+            <table class="table">
+              
+               <tbody>
+              
+                  <tr>
+                  <td scope="col" >{{ product.Name }}</td>
+                    <td scope="col">{{ product.price }}</td>
+                    <td scope="col" >{{ product.Quantite }}</td>
+                    <td><img  [src]="product.image" style="width: 50px; height: 50px;"></td>
+                    <td scope="col"><button type="button" class="btn btn-success">Ajouter</button></td>
+                    <td scope="col"><button type="button" class="btn btn-danger">Supprimer</button></td>
+                    
+                  </tr>
+               </tbody>
+                  </table>
+                  </div>
+</main>
