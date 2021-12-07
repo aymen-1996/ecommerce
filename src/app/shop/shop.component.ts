@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CartService } from "src/app/services/cart.service";
-import {shop } from "src/app/shop-list";
+import {shops } from "src/app/shops-list";
 @Component({
   selector: 'app-shop',
   templateUrl: './shop.component.html',
@@ -8,7 +8,7 @@ import {shop } from "src/app/shop-list";
 })
 export class ShopComponent implements OnInit {
 
-    public shopList = shop;
+    public shopsList = shops;
   
     constructor(
       private cartService: CartService,

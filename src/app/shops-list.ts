@@ -1,4 +1,4 @@
-export const shop = [
+export const shops = [
     {
       id: '8f4aa769-7841-424c-a817-a6b50ae75c66',
       title: 'Samsung S21',

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CartService } from "src/app/services/cart.service";
 
-import { shop } from "src/app/shop-list";
+import { shops } from "src/app/shops-list";
 
 @Component({
   selector: 'app-cart',
@@ -26,9 +26,9 @@ export class CartComponent implements OnInit {
   getCartContentDetails() {
     this.cartContent = this.cartService.cartContent;
     for (let index = 0; index < this.cartContent.length; index++) {
-      const shops = shop.filter(shop => shop.id == this.cartContent[index].id)[0];
-      this.cartContent[index].title =shops.title;
-      this.cartContent[index].price = shops.price;
+      const shop = shops.filter(shop => shop.id == this.cartContent[index].id)[0];
+      this.cartContent[index].title =shop.title;
+      this.cartContent[index].price = shop.price;
     }
   }
   computeTotalPrice() {

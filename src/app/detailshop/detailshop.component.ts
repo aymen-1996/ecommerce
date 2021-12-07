@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from "@angular/router";
 import { CartService } from "src/app/services/cart.service";
 
-import { shop } from "src/app/shop-list";
+import { shops } from "src/app/shops-list";
 
 @Component({
   selector: 'app-detailshop',
@@ -22,7 +22,7 @@ export class DetailShopComponent implements OnInit {
   ngOnInit(): void {
     this.route.paramMap.subscribe(params => {
      const shopId = params.get('id');
-     this.shop = shop.filter(shop => shop.id == shopId)[0];
+     this.shop = shops.filter(shop => shop.id == shopId)[0];
     });
   }
 
