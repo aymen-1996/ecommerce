@@ -19,6 +19,7 @@ import { RegistreComponent } from './Auth/registre/registre.component';
     LoginComponent,
     RegistreComponent,
     
+    
   ],
   imports: [
     BrowserModule,

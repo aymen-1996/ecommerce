@@ -1,0 +1,19 @@
+<h3>Courses details</h3>
+<div class="card mb-3">
+  <img src="{{ shop?.image }}" class="card-img-top" alt="{{ shop?.title }}">
+  <div class="card-img-overlay">
+    <h5 class="card-title">{{ shop?.title }}</h5>
+    <!-- <p class="card-text">By: <strong>{{ course?.instructor }}</strong></p>
+    <p class="card-text">Last updated: <strong>{{ course?.last_update }}</strong></p> -->
+  </div>
+  <div class="card-body">
+    <h4 class="card-title">{{ shop?.title }}</h4>
+    <p class="card-text"><strong>Description:</strong> {{ shop?.description }}.</p>
+    <p class="card-text"><strong>Price:</strong> {{ shop?.price|currency }}.</p>
+    <p class="card-text"><strong>details:</strong></p>
+    <ul>
+      <li *ngFor="let details of shop?.details">{{ details }}</li>
+    </ul>
+    <p class="card-text text-end"><small class="text-muted">Last updated: {{ shop?.last_update }}</small></p>
+  </div>
+</div>

@@ -7,7 +7,7 @@ export const shop = [
       image:
         'https://www.tunisianet.com.tn/img/cms/mine/Samsung_Tunisie/samsung-galaxy-s21-ultra-prise-en-main-une.jpg',
       last_update: '11/2021',
-      language: 'French',
+      
       price: 1500,
       details: [
         'Samsung Galaxy S21 Ultra 5G est sorti en 2021 . Il mesure 165.1 x 75.6 x 8.9 mm et pèse 227 g. Il dispose d un écran Dynamic AMOLED 2X de 6.8" pouces. La définition d écran est de 1440 x 3200 et la résolution est de 515 ppi. Un appareil photo Unique de 40 MP est responsable des selfies et les appels vidéo.. L appareil principal Quadruple est de 108 MP. L appareil intègre un processeur Octa-core (1x2.9 GHz Cortex-X1 & 3x2.80 GHz Cortex-A78 & 4x2.2 GHz Cortex-A55) - International Octa-core (1x2.84 GHz Kryo 680 & 3x2.42 GHz Kryo 680 & 4x1.80 GHz Kryo 680 - USA/China et de mémoire 128GB 12GB RAM, 256GB 12GB RAM, 512GB 16GB RAM. La batterie est de 5000 mAh.',
@@ -22,7 +22,6 @@ export const shop = [
       image:
         'https://images.frandroid.com/wp-content/uploads/2021/09/apple-iphone-13-pro-colors-09142021.jpg',
       last_update: '5/2020',
-      language: 'French',
       price: 2000,
       details: [
         'L iPhone 13 Pro Max, d Apple, est un smartphone XXL avec un grand écran OLED de 6,7 pouces. Doté d un taux de rafraîchissement adaptatif pouvant varier entre 10 et 120 Hz, cet appareil utilise la puce A15 Bionic, dispose d un triple module caméra avec équivalents 13, 26 et 77 mm, et embarque une batterie plus grosse selon Apple. Il existe en versions 128 Go, 256 Go, 512 Go et 1 To. ',
@@ -37,7 +36,6 @@ export const shop = [
       image:
         'https://media.ldlc.com/r1600/ld/products/00/05/76/42/LD0005764254_1_0005790193.jpg',
       last_update: '10/2021',
-      language: 'English',
       price: 999,
       details: [
         'Processeur Intel Core i5-1135G7 (Quad-Core 0.9 GHz - 2.4 GHz / 4.2 GHz Turbo - 8 Threads - Cache 8 Mo)',
@@ -60,7 +58,6 @@ export const shop = [
       image:
         'https://id-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/c/0/c06241221.png',
       last_update: '11/2021',
-      language: 'English',
       price: 400,
       details: [
         '10th Generation Intel® Core™ i3 processor',
@@ -81,7 +78,6 @@ export const shop = [
         "La Samsnug Galaxy Tab S6 Lite est une tablette performante et sécurisée, pensée pour les créatifs et les passionnés de l'image, conçue pour apprendre, créer,  jouer et regarder des vidéos sur un écran panoramique au rendu exceptionnel.",
       image: 'https://media.ldlc.com/r1600/ld/products/00/05/66/09/LD0005660984_2.jpg',
       last_update: '10/2021',
-      language: 'English',
       price: 510.99,
       details: [
         'Taille de memoire 4GO',
@@ -98,7 +94,6 @@ export const shop = [
         image:
           'https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-mini-select-202109?wid=540&hei=530&fmt=jpeg&qlt=95&.v=1631751017000',
         last_update: '11/2021',
-        language: 'English',
         price: 700,
         details: [
          'Nouvel iPad mini. Design tout écran avec écran Liquid Retina de 8,3 pouces. Puissante puce A15 Bionic avec Neural Engine. Caméra avant ultra grand-angle 12 Mpx avec Cadre centré. Connectivité USB-C. Connectivité 5G ultra-rapide.',

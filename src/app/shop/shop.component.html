@@ -23,7 +23,10 @@
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                    
-                    <button type="button"routerLink="/cart" class="btn btn-sm btn-outline-secondary">Buy</button>
+                    <button routerLink="/courses/{{shop.id}}" type="button"
+                    class="btn btn-sm btn-outline-secondary">Show</button>
+                  <button (click)="addToCart(shop.id)" type="button"
+                    class="btn btn-sm btn-outline-secondary">Buy</button>
                   </div>
                   <small class="text-muted">{{ shop.price|currency:'EUR' }}</small>
                 </div>
