@@ -2,12 +2,13 @@ import { Injectable } from '@angular/core';
 
 import { LocalStorageService } from "src/app/services/local-storage.service";
 
+
 @Injectable({
   providedIn: 'root'
 })
 export class CartService {
 
-  public cartContent: any[] = [];
+  public cartContent:any[] = [];
 
   constructor(
     private localStorageService: LocalStorageService
@@ -15,17 +16,17 @@ export class CartService {
     this.cartContent = this.load();
    }
 
-  add(productId: string) {
-    const shop = this.cartContent.filter(elem => elem.id == productId)[0];
+   add(id: string) {
+    const shop = this.cartContent.filter(shop => shop.id == id)[0];
     if (shop) {
       shop.quantity++;
     } else {
-      this.cartContent.push({id: productId, quantity: 1})
+      this.cartContent.push({id: id, quantity: 1})
     }
     this.localStorageService.set('cart', this.cartContent);
-  }
+   }
 
-  load() {
-    return this.localStorageService.get('cart')
-  }
+   load() {
+    return this.localStorageService.get('cart');
+   }
 }

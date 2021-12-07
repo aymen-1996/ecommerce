@@ -7,19 +7,17 @@ import {shop } from "src/app/shop-list";
   styleUrls: ['./shop.component.css']
 })
 export class ShopComponent implements OnInit {
-  public shopList = shop;
 
-  constructor(
-    private cartService: CartService
-  ) { }
-
-  ngOnInit(): void {
-  }
-    public addToCart(id: string) {
-      this.cartService.add(id);
+    public shopList = shop;
+  
+    constructor(
+      private cartService: CartService,
+    ) { }
+  
+    ngOnInit(): void {
     }
   
-
+    addToCart(id: string) {
+      this.cartService.add(id);
+    }
   }
-
-
