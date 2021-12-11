@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from "@angular/common/http";
 import { CommonModule } from '@angular/common';
 // import { RouterModule, Routes } from "@angular/router";
 
@@ -24,6 +25,7 @@ import { RegistreComponent } from './Auth/registre/registre.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule
     // RouterModule.forRoot(routes)
   ],
   providers: [],

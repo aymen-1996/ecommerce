@@ -17,7 +17,7 @@ const routes: Routes = [
   { path: 'cart', component: CartComponent },
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegistreComponent },
-  { path: 'shop', loadChildren: () => import('./shop/shop.module').then(m => m.ShopModule) },
+  { path: 'shops', loadChildren: () => import('./shop/shop.module').then(m => m.ShopModule) },
   { path:'**', component: NotFoundComponent },
   
 ];
