@@ -18,7 +18,8 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegistreComponent },
   { path: 'shops', loadChildren: () => import('./shop/shop.module').then(m => m.ShopModule) },
-  { path: 'books', loadChildren: () => import('./books/books.module').then(m => m.BooksModule) },
+  { path: 'books', loadChildren: () => import('./shop/books/books.module').then(m => m.BooksModule) },
+  { path: 'parfum', loadChildren: () => import('./shop/parfum/parfum.module').then(m => m.ParfumModule) },
   { path:'**', component: NotFoundComponent },
   
 ];

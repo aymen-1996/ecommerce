@@ -5,6 +5,7 @@ import {  ShopRoutingModule } from './shop-routing.module';
 import { ShopComponent } from './shop.component';
 
 
+
 @NgModule({
   declarations: [
   ShopComponent

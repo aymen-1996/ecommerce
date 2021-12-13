@@ -145,6 +145,43 @@ export const shops = [
        
        price: 15
      
-     }
-  ];
+     },
+     {
+      id: 'dffxg6xdf26df',
+      title: 'Valentino Coffret Parfum Voce Viva',
+      image:
+      'https://cdn2.tendance-parfums.com/media/catalog/product/cache/e75d3945dbf9e33b053d90ad300b39ce/c/o/coffret-voce-viva-eau-de-parfum-50-ml-et-15-ml.jpg',
+      
+      price: 56
+    
+    },
+    {
+      id: 'sdfdfg1253123',
+      title: 'Yves Saint Laurent Coffret Parfum Black Opium',
+      image:
+      'https://cdn2.tendance-parfums.com/media/catalog/product/cache/7af997895935dfca5856fd669a708948/c/o/coffret-black-opium-50-ml-mascara-rouge.jpg',
+      
+      price: 65
+    
+    },
+    {
+      id: 'sqdsqdqd56545sfd',
+      title: 'Lancôme Coffret Parfum La Vie Est Belle',
+      image:
+      'https://cdn2.tendance-parfums.com/media/catalog/product/cache/7af997895935dfca5856fd669a708948/c/o/coffret-la-vie-est-belle-lancome-eau-de-parfum-50-ml-lait-corps-gel-douche_1.jpg',
+      
+      price: 58.90
+    
+    },
+    {
+      id: 'dfwxfgxfg5656dffg',
+      title: 'Ralph Lauren Coffret Parfum Ralphs Club',
+      image:
+      'https://cdn2.tendance-parfums.com/media/catalog/product/cache/7af997895935dfca5856fd669a708948/c/o/coffret-ralph-club-ralph-lauren-eau-de-parfum-50-et-10-ml.jpg',
+      
+      price: 44
+    
+    }
+    ];
+  
   

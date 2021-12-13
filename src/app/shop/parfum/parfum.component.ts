@@ -1,23 +1,23 @@
 import { Component, OnInit } from '@angular/core';
 import { CartService } from "src/app/services/cart.service";
-import {  ShopService } from "src/app/services/shop.service";
-//import {shops } from "src/app/shops-list";
+import { ParfumService } from "src/app/services/parfum.service";
+
 @Component({
-  selector: 'app-shop',
-  templateUrl: './shop.component.html',
-  styleUrls: ['./shop.component.css']
+  selector: 'app-parfum',
+  templateUrl: './parfum.component.html',
+  styleUrls: ['./parfum.component.css']
 })
-export class ShopComponent implements OnInit {
+export class ParfumComponent implements OnInit {
 
     public shopsList: any = [];
   
     constructor(
       private cartService: CartService,
-      private shopService: ShopService
+      private parfumService: ParfumService
     ) { }
   
     ngOnInit(): void {
-      this.shopService.all().subscribe(
+      this.parfumService.all().subscribe(
         res => this.shopsList = res
       );
     }
