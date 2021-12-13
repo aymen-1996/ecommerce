@@ -86,6 +86,7 @@ export const shops = [
       ],
      
     },
+    
     {
         id: 'a1675299-1373-4d4b-b887-61f006a61f93',
         title: 'The ipad-mini',
@@ -100,6 +101,49 @@ export const shops = [
         ],
         
       },
-    
+      {
+        id: '8f4aa769mllm1255',
+        title: 'You can heal your life',
+        auteur:
+        'Louise Hay' ,
+        image:
+        'https://5.imimg.com/data5/VE/JG/GLADMIN-24426186/you-can-heal-your-life-boook-500x500.png',
+        
+        'price': 30
+      
+      },
+      {
+       id: 'zas1521d2sd1s2d',
+       title: 'true works of art',
+       auteur:
+       'Louise Hay' ,
+       image:
+       'https://i.pinimg.com/originals/b7/ac/78/b7ac7883f65d953f8e8a815e5bb2f257.jpg',
+       
+       price: 50
+     
+     },
+     {
+       id: 'dff11d2f2df2',
+       title: 'Game of thrones',
+       auteur:
+       'Martin',
+       image:
+       'http://www.culturel.tn/medias/couver/9780007448036.gif',
+       
+       price: 70
+     
+     },
+     {
+       id: 'zeds11321sd21',
+       title: 'The blue book',
+       auteur:
+       'George' ,
+       image:
+       'https://www.mercator-ocean.fr/wp-content/uploads/2019/11/Mock-Up_BlueBookCopernicus_2.jpg',
+       
+       price: 15
+     
+     }
   ];
   

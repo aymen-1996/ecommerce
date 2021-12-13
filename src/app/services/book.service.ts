@@ -5,11 +5,13 @@ import { HttpClient } from "@angular/common/http";
 @Injectable({
   providedIn: 'root'
 })
-export class ShopService {
+export class BookService {
 
  
  
-  private apiUrl = 'https://my-json-server.typicode.com/aymen-1996/jsonapi/shops';
+  private apiUrl = 'https://my-json-server.typicode.com/aymen-1996/apibook/books';
+
+
 
   constructor(private http: HttpClient) { }
 

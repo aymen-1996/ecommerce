@@ -18,6 +18,7 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegistreComponent },
   { path: 'shops', loadChildren: () => import('./shop/shop.module').then(m => m.ShopModule) },
+  { path: 'books', loadChildren: () => import('./books/books.module').then(m => m.BooksModule) },
   { path:'**', component: NotFoundComponent },
   
 ];
