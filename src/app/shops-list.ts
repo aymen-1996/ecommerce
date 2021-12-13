@@ -134,6 +134,7 @@ export const shops = [
        price: 70
      
      },
+     
      {
        id: 'zeds11321sd21',
        title: 'The blue book',
